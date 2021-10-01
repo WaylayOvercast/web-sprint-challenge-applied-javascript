@@ -60,7 +60,12 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+    the document object model is a series of data built so that languages like javascript can interact with the structure and style of a website through automated functions
 2. What is an event?
+    a packet of data sent over api to inform servers of changes in user control or action
 3. What is an event listener?
+    a type of method to act on events or actions taken by a user
 4. Why would we convert a NodeList into an Array?
+    so that it is easier to navigate and itterate, also to store.
 5. What is a component?
+    a componet is a set of javascript apis that can create new html to use in your page.

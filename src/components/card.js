@@ -48,12 +48,13 @@ const Card = (article) => {
   div4.appendChild(img);
 
   let span = document.createElement('span')
-  span.textContent = `By: ${article[i].authorName}`
+  span.textContent = `By ${article[i].authorName}`
 
-  div4.appendChild(span);
+  div3.appendChild(span);
 
-    div.addEventListener('click', e =>{
-      e.target.console.log(div2.textContent)
+    document.addEventListener('click', e =>{
+      let element = e.target
+      console.log(element.textContent)
     })
     return div
   }
